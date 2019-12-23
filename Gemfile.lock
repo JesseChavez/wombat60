@@ -45,7 +45,7 @@ GEM
     activerecord (6.0.2.1)
       activemodel (= 6.0.2.1)
       activesupport (= 6.0.2.1)
-    activerecord-jdbc-adapter (60.1-java)
+    activerecord-jdbc-alt-adapter (60.0.0-java)
       activerecord (~> 6.0.0)
     activestorage (6.0.2.1)
       actionpack (= 6.0.2.1)
@@ -193,7 +193,7 @@ PLATFORMS
   java
 
 DEPENDENCIES
-  activerecord-jdbc-adapter
+  activerecord-jdbc-alt-adapter
   capybara (>= 2.15)
   jbuilder (~> 2.7)
   listen (>= 3.0.5, < 3.2)
