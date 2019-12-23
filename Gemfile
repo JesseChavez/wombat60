@@ -43,3 +43,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Use jdbc as the database for Active Record
 gem 'activerecord-jdbc-alt-adapter'
+gem 'jdbc-mssql', '~> 0.7.0'
